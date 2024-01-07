@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    float a,b,c;
+    printf("Enter Height in Cm = ");
+    scanf("%f",&a);
+    b=(a/30);
+    c=(a/2.5);
+    printf("Height in Feet = %f\n",b);
+    printf("Height in Inches = %f\n",c);
+
+    return 0;
+}
+
+
